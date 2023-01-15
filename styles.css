@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(226, 248, 255);
+}
+
 img {
     border-radius: 25px;
 }
@@ -8,4 +12,21 @@ h1 {
 
 a {
     color: orange;
+}
+
+a:hover {
+    color: purple;
+}
+
+nav {
+    width:fit-content;
+    padding: 10px;
+    height:auto;
+    background-color: gray;
+    border-radius: 25px;
+}
+
+nav a {
+    color: orange;
+    font-size: 2em;
 }
