@@ -1,3 +1,19 @@
+.flex-container{
+    display: flex;
+}
+
+.flex-container div {
+    width: 33%;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.flex-container div img{
+    width: 100%;
+    padding: 10px;
+}
+
 body {
     background-color: rgb(226, 248, 255);
     font-family: Verdana, sans-serif;
